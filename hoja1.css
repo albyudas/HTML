@@ -1,0 +1,207 @@
+   
+*{ font-family: sans-serif; margin: 0;}
+	dl{ margin: 25px; width: 300px; }
+	dt, dd{ padding: 20px; }
+	dt{ background: #333333; color: white; border-bottom: 1px solid #141414; border-top: 1px solid #4E4E4E; cursor: pointer; }
+	dd{ background: #F5F5F5; line-height: 1.6em; }
+	dt.activo, dt:hover{ background: #424242; }
+
+	dt:before{ content: "▸"; margin-right: 10px; }
+	dt.activo:before{ content: "▾"; }
+    
+#portada-fija{
+	background: #333;
+	color: white;
+	height: 50px;
+	text-align: center;
+	border-bottom: 5px solid rgb(214, 10, 0);
+	padding-top: 25px;
+	font-size: 20px;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+#logo{
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	height: 75px;
+	text-align: left;
+	position: fixed;
+}        
+        
+#encabezado{
+	width: 100%;
+	height: 200px;
+	border-bottom: 5px solid rgb(214, 10, 0);
+}
+
+        
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color:  #414040 ;
+	background: white;
+	font-size: 1em;
+	line-height: 2.1em;
+	padding-top: 60px; /* Relleno superior igual a la altura de la cabecera*/
+}  
+
+.slider {
+	border: 5px solid rgb(51,51,51);
+	width: 70%;
+	height: 440px;
+	margin: 25px;
+	overflow: hidden;
+	float:right;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	height:100%;
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+	height:100%;
+}
+
+.informacion{
+float: left;
+}
+
+ #letrasenpag{
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 490px;
+	padding-top:0px; 
+}
+
+#fuentes{
+
+float: left;
+margin-right: 20px;
+margin-left: 120px;
+text-align: center;
+width: 500px;
+border: 3px solid #70706f;
+}
+
+#colores{
+height: 50px;
+text-align: center;
+width: 300px;
+border: 3px solid #70706f;
+
+}
+#leyenda{
+	margin-right: 66px;
+	margin-top: 20px;
+
+}
+#pseudo {
+	float: left;
+	margin-left: 130px;
+}
+
+#caja{
+float: left;
+margin-right: 20px;
+margin-left: 250px;
+margin-top: 20px;
+text-align: center;
+width: 550px;
+border: 3px solid #70706f;
+padding:5px;
+}
+
+#modcaja{
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 270px;
+	padding-top:0px; 
+}
+
+#posiciones{
+	float: left;
+	margin-left: 130px;
+}
+
+th,td {
+	width: 25%; 
+	text-align: center;
+}
+
+tr{
+	height: 15px;
+}
+
+h2{
+float: center ;
+text-align: center;
+top: 300px;
+padding: 20px;
+background: #e1e0df;
+border-top: 3px solid rgb(51,51,51);
+border-bottom: 3px solid rgb(51,51,51);
+}
+
+h3{
+float: left;
+padding-left: 150px;
+font-weight: bold;
+padding-top: 30px;
+background: white;
+}
+
+p{
+float: left;
+padding-bottom: 15px;
+padding-top: 15px;
+padding-right: 150px;
+padding-left: 150px;
+background: white;ç
+
+}
+
+p:first-letter {
+	margin-left: 50px;
+}
+
+	@keyframes cambio {
+	0% {margin-left: 0;}
+	33% {margin-left: 0;}
+    
+	37% {margin-left: -100%;}
+	70% {margin-left: -100%;}
+    
+	74% {margin-left: -200%;}
+	100% {margin-left: -200%;}  
+	}
+
+code{
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+footer{
+	display: block;
+}
+
+
+
+
+
+
